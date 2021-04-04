@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 55374325400,
+  "duration": 26628864800,
   "status": "passed"
 });
 formatter.scenario({
@@ -76,7 +76,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.after({
-  "duration": 7113666900,
+  "duration": 6368703100,
   "status": "passed"
 });
 });
