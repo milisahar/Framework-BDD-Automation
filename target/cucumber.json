@@ -1,0 +1,585 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14648558900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "j\u0027ouvre l\u0027application orangeHRM",
+            "match": {
+              "location": "AuthentificationStepDefinition.jOuvreLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1900925700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie le username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinition.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 259712600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je saisie le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthentificationStepDefinition.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8065712300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Je clique sur le bouton Login",
+            "match": {
+              "location": "AuthentificationStepDefinition.jeCliqueSurLeBoutonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208457200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Redirection vers la page Home de l\u0027application OrangeHRM \"Welcome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome",
+                  "offset": 58
+                }
+              ],
+              "location": "AuthentificationStepDefinition.redirectionVersLaPageHomeDeLApplicationOrangeHRM(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 43612675900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Ajouter Info dans le premier formulaire- OrangeHRM",
+        "description": "",
+        "id": "ajouter-info--orangehrm;ajouter-info-dans-le-premier-formulaire--orangehrm",
+        "after": [
+          {
+            "result": {
+              "duration": 16458336400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2712328000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Je clique sur le module My Info",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeModuleMyInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 321707900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Je clique sur le boutton Edit",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBouttonEdit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1840655700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Je saisis le champ Full Name \"Sahar Mili\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sahar Mili",
+                  "offset": 30
+                }
+              ],
+              "location": "MyInfoStepDefinition.jeSaisisLeChampFullName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 971987800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Je saisis le champ Last Name \"Sahar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sahar",
+                  "offset": 30
+                }
+              ],
+              "location": "MyInfoStepDefinition.jeSaisisLeChampLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117673700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Je saisis le champ Employee Id \"00225\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00225",
+                  "offset": 32
+                }
+              ],
+              "location": "MyInfoStepDefinition.jeSaisisLeChampEmployeeId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2157082100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Je clique sur le boutton Save",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBouttonSave()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@myinfo1"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5297332500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "j\u0027ouvre l\u0027application orangeHRM",
+            "match": {
+              "location": "AuthentificationStepDefinition.jOuvreLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 343319000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie le username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinition.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326006300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je saisie le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthentificationStepDefinition.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4007160200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Je clique sur le bouton Login",
+            "match": {
+              "location": "AuthentificationStepDefinition.jeCliqueSurLeBoutonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154555100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Redirection vers la page Home de l\u0027application OrangeHRM \"Welcome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome",
+                  "offset": 58
+                }
+              ],
+              "location": "AuthentificationStepDefinition.redirectionVersLaPageHomeDeLApplicationOrangeHRM(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 45920514300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Ajouter Info dans le deuxième formulaire- OrangeHRM",
+        "description": "",
+        "id": "ajouter-info--orangehrm;ajouter-info-dans-le-deuxième-formulaire--orangehrm",
+        "after": [
+          {
+            "result": {
+              "duration": 5418508500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1636432200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Je clique sur le module My Info",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeModuleMyInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166456000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Je clique sur le deuxième boutton Edit",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeDeuxièmeBouttonEdit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 389885400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Je selectionne dans Custom Fields",
+            "match": {
+              "location": "MyInfoStepDefinition.jeSelectionneDansCustomFields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104656700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Je clique sur le boutton Save",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBouttonSave()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@myinfo2"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5192862100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "j\u0027ouvre l\u0027application orangeHRM",
+            "match": {
+              "location": "AuthentificationStepDefinition.jOuvreLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174966100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie le username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthentificationStepDefinition.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192830800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je saisie le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthentificationStepDefinition.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4272145600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Je clique sur le bouton Login",
+            "match": {
+              "location": "AuthentificationStepDefinition.jeCliqueSurLeBoutonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59941000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Redirection vers la page Home de l\u0027application OrangeHRM \"Welcome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome",
+                  "offset": 58
+                }
+              ],
+              "location": "AuthentificationStepDefinition.redirectionVersLaPageHomeDeLApplicationOrangeHRM(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3738484500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Ajouter un attachment - OrangeHRM",
+        "description": "",
+        "id": "ajouter-info--orangehrm;ajouter-un-attachment---orangehrm",
+        "after": [
+          {
+            "result": {
+              "duration": 2084546400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4397120800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Je clique sur le module My Info",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeModuleMyInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114185400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Je clique sur le boutton Add",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBouttonAdd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Je clique sur le boutton Choisir un fichier \"C:\\Users\\asus\\Desktop\\testpom\\feature.PNG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "C:\\Users\\asus\\Desktop\\testpom\\feature.PNG",
+                  "offset": 45
+                }
+              ],
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBouttonChoisirUnFichier(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Je clique sur le boutton Upload",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBouttonUpload()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@myinfo3"
+          }
+        ]
+      }
+    ],
+    "name": "Ajouter Info- OrangeHRM",
+    "description": "\nEn tant que utilisateur je souhaite ajouter des informations dans le module MyInfo",
+    "id": "ajouter-info--orangehrm",
+    "keyword": "Feature",
+    "uri": "my_info/EditMyInfo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@info"
+      }
+    ]
+  }
+]

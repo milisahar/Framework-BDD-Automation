@@ -1,0 +1,15 @@
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\CommonMethods.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\DriverManager.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\Setup.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\authentification\stepDefinition\AuthentificationStepDefinition.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\DriverManagerFactory.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\AbstractPage.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\authentification\pageObjects\AuthentificationPage.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\DriverType.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\moduleBuzz\stepDefinition\ModuleBuzzStepDefinition.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\InternetExplorerDriver.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\ChromeDriverManager.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\FirefoxDriverManager.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\moduleBuzz\pageObjects\ModuleBuzzPage.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\TestRunner.java
+C:\Users\asus\eclipse-workspace\framework-selenium-automation\src\test\java\com\selenium\e2eTests\utils\EdgeDriverManager.java

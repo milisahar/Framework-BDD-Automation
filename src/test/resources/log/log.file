@@ -1,0 +1,15 @@
+2021-04-20 02:31:31,896 - com.selenium.e2eTests.utils.AbstractPage - INFO - j'ouvre l'application orangeHRM
+2021-04-20 02:31:41,197 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je saisie le username
+2021-04-20 02:31:43,100 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je saisie le mot de passe
+2021-04-20 02:31:43,364 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je clique sur le bouton Login
+2021-04-20 02:31:51,436 - com.selenium.e2eTests.utils.AbstractPage - INFO - Redirection vers la page Home de l'application OrangeHRM
+2021-04-20 02:33:02,169 - com.selenium.e2eTests.utils.AbstractPage - INFO - j'ouvre l'application orangeHRM
+2021-04-20 02:33:07,468 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je saisie le username
+2021-04-20 02:33:07,813 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je saisie le mot de passe
+2021-04-20 02:33:08,141 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je clique sur le bouton Login
+2021-04-20 02:33:12,158 - com.selenium.e2eTests.utils.AbstractPage - INFO - Redirection vers la page Home de l'application OrangeHRM
+2021-04-20 02:33:23,787 - com.selenium.e2eTests.utils.AbstractPage - INFO - j'ouvre l'application orangeHRM
+2021-04-20 02:33:28,983 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je saisie le username
+2021-04-20 02:33:29,161 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je saisie le mot de passe
+2021-04-20 02:33:29,357 - com.selenium.e2eTests.utils.AbstractPage - INFO - Je clique sur le bouton Login
+2021-04-20 02:33:33,631 - com.selenium.e2eTests.utils.AbstractPage - INFO - Redirection vers la page Home de l'application OrangeHRM
