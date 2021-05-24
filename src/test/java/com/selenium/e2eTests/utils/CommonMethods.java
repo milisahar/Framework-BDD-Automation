@@ -63,7 +63,7 @@ public class CommonMethods {
 	public JSONObject JsonLocatorData(int i) {
 		JSONParser parser = new JSONParser();
 		try {
-			Object obj = parser.parse(new FileReader("./src/test/resources/test_data/ConfigFileLocators.json"));
+			Object obj = parser.parse(new FileReader("src/test/resources/test_Data/ConfigFileLocators.json"));
 			JSONArray array = (JSONArray) obj;
 			JSONObject jsonObject = (JSONObject) array.get(i);
 
@@ -81,6 +81,7 @@ public class CommonMethods {
 		}
 	}
 
+	// select methods
 	public void selectDropDownListByVisibleText(WebElement element, String text) {
 		Select dropDownList = new Select(element);
 		dropDownList.selectByVisibleText(text);
@@ -111,8 +112,8 @@ public class CommonMethods {
 		return isElementDisplayed;
 	}
 
-	public boolean isElementPresent(String xpat_element) {
-		int count = driver.findElements(By.xpath(xpat_element)).size();
+	public boolean isElementPresent(String xpath_element) {
+		int count = driver.findElements(By.xpath(xpath_element)).size();
 		if (count == 0)
 			return false;
 		else

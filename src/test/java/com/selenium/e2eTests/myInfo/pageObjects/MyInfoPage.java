@@ -75,18 +75,17 @@ public class MyInfoPage {
 		SecBtnEdit.click();
 	}
 
-	public void selectInCustomFields() {
+	public void selectInCustomFields(String bloodType) {
 		Select fields = new Select(customField);
 		fields.selectByIndex(1);
-		//fields.getFirstSelectedOption();
-		//fields.selectByVisibleText(ADD_BUTTON_ID);
+		//fields.selectByVisibleText(bloodType);
 	}
 	public void clickOnAddButton() {
 		btnAdd.click();
 	}
 	
-	public void clickOnUploadFileButton(String url) {
-		btnUpFile.sendKeys(url);
+	public void clickOnUploadFileButton() {
+		btnUpFile.sendKeys();
 	}
 	public void clickOnUploadButton() {
 		btnUpload.click();

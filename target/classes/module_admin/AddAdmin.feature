@@ -23,5 +23,5 @@ Feature: Ajouter Admin- OrangeHRM
       | employee | username | password  | confirmPassword |
       | Sarra    | Khelil   | sarra123  | sarra123        |
     #  | Wissal   | Argoubi  | wissal123 | wissal123       |
-   #   | Zied     | Hannachi | zied123   | zied123         |
+    #  | Zied     | Hannachi | zied123   | zied123         |
     #  | Sahar    | Mili     | sahar123  | sahar123        |

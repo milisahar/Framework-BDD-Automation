@@ -23,14 +23,14 @@ Feature: Ajouter Info- OrangeHRM
   Scenario: Ajouter Info dans le deuxième formulaire- OrangeHRM
    When Je clique sur le module My Info
    And Je clique sur le deuxième boutton Edit
-   And Je selectionne dans Custom Fields 
+   And Je selectionne dans Custom Fields "A+" 
    And Je clique sur le boutton Save
    
    @myinfo3
    Scenario: Ajouter un attachment - OrangeHRM
    When Je clique sur le module My Info
    And Je clique sur le boutton Add
-   And Je clique sur le boutton Choisir un fichier "C:\Users\asus\Desktop\testpom\feature.PNG" 
+   And Je clique sur le boutton Choisir un fichier
    And Je clique sur le boutton Upload
   
  

@@ -25,22 +25,22 @@ public class ExcelUtils {
 		}
 	}
 
-	public static String getCellData(int RowNum, int ColNum) {
+	public static String getCellData(int rowNum, int colNum) {
 		try {
-			Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
-			String CellData = Cell.getStringCellValue();
-			return CellData;
+			Cell = ExcelWSheet.getRow(rowNum).getCell(colNum);
+			String cellData = Cell.getStringCellValue();
+			return cellData;
 		} catch (Exception e) {
 			return "";
 		}
 	}
 
-	public static void setCellData(String result, int RowNum, int ColNum) throws Exception {
+	public static void setCellData(String result, int rowNum, int colNum) throws Exception {
 		try {
-			Row = ExcelWSheet.getRow(RowNum);
-			Cell = Row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
+			Row = ExcelWSheet.getRow(rowNum);
+			Cell = Row.getCell(colNum, Row.RETURN_BLANK_AS_NULL);
 			if (Cell == null) {
-				Cell = Row.createCell(ColNum);
+				Cell = Row.createCell(colNum);
 				Cell.setCellValue(result);
 			} else {
 				Cell.setCellValue(result);
@@ -54,5 +54,4 @@ public class ExcelUtils {
 			throw (e);
 		}
 	}
-
 }

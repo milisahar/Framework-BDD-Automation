@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 		//glue = {"src/test/java"},
 		plugin = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber.json", "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/orangeHRM-report.html"},
 		snippets = SnippetType.CAMELCASE,
-		tags = {("@info")},
+		tags = {("@myinfo2")},
 		//tags = {("@buzz, @connexion")},
 		monochrome = true
 		)
